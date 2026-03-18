@@ -2,7 +2,7 @@
 title: Homepage
 description: The homepage for my homelab documentation.
 published: true
-date: 2026-03-18T16:21:58.494Z
+date: 2026-03-18T16:23:35.696Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-17T21:16:24.494Z
@@ -13,7 +13,7 @@ dateCreated: 2026-03-17T21:16:24.494Z
 
 Hi! My name is Minne(/’mɪnə/). I am 13 years old at the time of publishing, and I am into computers and homelabbing. I started homelabbing about a year ago and have made some upgrades along the way.
 
-## DEVICES
+## Devices
 - A Raspberry Pi, I have the Pi 5 4gb.
 - Any PC, mine has an i7 2600k and a 1650. I am using 16 Gigs of 1333mhz DDR3
 
@@ -28,6 +28,9 @@ If you have a problem with anything in these docs, make an issue to the repo. I 
 
 ## Table of contents
 Raspberry pi:
-How to set it up for the first time
-How to set up docker/portainer
-All my portainer stacks (docker compose)
+- How to set it up for the first time
+- How to set up docker/portainer
+- All my portainer stacks (docker compose)
+
+Other server:
+- Still WIP but coming soon when everything is working and i have time to make a new Debian 13 installation.
