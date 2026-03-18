@@ -2,7 +2,7 @@
 title: Infrastructure
 description: The infrastructure stack
 published: true
-date: 2026-03-18T20:38:07.719Z
+date: 2026-03-18T20:42:08.105Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-18T20:38:07.719Z
@@ -14,7 +14,8 @@ If you don't have TP-Link Omada devices, you can leave out that part.
 It has NPM for a reverse proxy, Pi-Hole for DNS, Omada for controlling your network, and a cloudflare tunnel for remote access.
 It's written in YAML and is used for docker compose.
 
-```---
+```yaml
+---
 version: "3.8"
 services:
   nginx-proxy-manager:
