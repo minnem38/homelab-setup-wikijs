@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2026-03-18T11:42:13.508Z
+date: 2026-03-18T20:41:40.641Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-18T11:37:34.600Z
@@ -10,16 +10,18 @@ dateCreated: 2026-03-18T11:37:34.600Z
 
 # Documentation stack
 This stack is for your documentation of your homelab.
+It uses WikiJS which is what this site is based on. It also uses PostGreSQL which is a database needed for 
 It's written in YAML and is used for docker compose.
 
-```services:
+```yaml
+services:
 
   db:
     image: postgres:15-alpine
     environment:
-      POSTGRES_DB: wiki
-      POSTGRES_PASSWORD: wikijsrocks
-      POSTGRES_USER: wikijs
+      POSTGRES_DB: dbhere #this
+      POSTGRES_PASSWORD: password here #this
+      POSTGRES_USER: user #and this must match with the ones below
     logging:
       driver: none
     restart: unless-stopped
@@ -34,9 +36,9 @@ It's written in YAML and is used for docker compose.
       DB_TYPE: postgres
       DB_HOST: db
       DB_PORT: 5432
-      DB_USER: wikijs
-      DB_PASS: wikijsrocks
-      DB_NAME: wiki
+      DB_USER: userhere
+      DB_PASS: passwordhere
+      DB_NAME: dbhere
     restart: unless-stopped
     ports:
       - "85:3000"
