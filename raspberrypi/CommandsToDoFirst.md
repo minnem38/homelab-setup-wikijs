@@ -1,8 +1,8 @@
 ---
-title: Raspberry pi
+title: Commands to do first
 description: The docs for whatever i do on my Pi
 published: true
-date: 2026-03-18T10:52:47.994Z
+date: 2026-03-18T20:26:47.284Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-18T10:52:46.106Z
