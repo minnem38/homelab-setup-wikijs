@@ -1,6 +1,6 @@
 ---
 title: Commands to do first
-description: The docs for whatever i do on my Pi
+description: Commands you should do immediately after setting up your pi
 published: true
 date: 2026-03-18T20:26:47.284Z
 tags: 
