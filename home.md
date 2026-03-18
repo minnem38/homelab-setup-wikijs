@@ -2,7 +2,7 @@
 title: Homepage
 description: The homepage for my homelab documentation.
 published: true
-date: 2026-03-18T10:25:15.886Z
+date: 2026-03-18T10:52:46.058Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-17T21:16:24.494Z
