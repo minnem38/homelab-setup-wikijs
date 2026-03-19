@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2026-03-19T12:30:23.028Z
+date: 2026-03-19T12:31:42.288Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-18T11:37:34.600Z
@@ -20,7 +20,7 @@ services:
     image: postgres:15-alpine
     environment:
       POSTGRES_DB: dbhere #this
-      POSTGRES_PASSWORD: password here #this
+      POSTGRES_PASSWORD: passwordhere #this
       POSTGRES_USER: user #and this must match with the ones below
     logging:
       driver: none
