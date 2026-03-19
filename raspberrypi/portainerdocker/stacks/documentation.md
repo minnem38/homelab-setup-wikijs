@@ -2,7 +2,7 @@
 title: Documentation
 description: 
 published: true
-date: 2026-03-18T20:41:40.641Z
+date: 2026-03-19T12:30:23.028Z
 tags: 
 editor: markdown
 dateCreated: 2026-03-18T11:37:34.600Z
@@ -10,7 +10,7 @@ dateCreated: 2026-03-18T11:37:34.600Z
 
 # Documentation stack
 This stack is for your documentation of your homelab.
-It uses WikiJS which is what this site is based on. It also uses PostGreSQL which is a database needed for 
+It uses WikiJS which is what this site is based on. It also uses PostGreSQL which is a database needed for WikiJS to function.
 It's written in YAML and is used for docker compose.
 
 ```yaml
